@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
-import dlib
 import os
+import dlib
 
 def get_xy(match, center):
     rad = (match.right() - match.left()) // 2
